@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Questions</string>
+    <string-array name="ques">
+        <item>1<b>. Fizz Buzz</b></item>
+        <item>2<b>. Two Sum</b></item>
+        <item>3<b>. Valid Anagram</b></item>
+        <item>4<b>. Reverse String</b></item>
+        <item>5<b>. Valid Palindrome</b></item>
+        <item>6<b>. Longest Common Prefix</b></item>
+        <item>7<b>. Power of Three</b></item>
+        <item>8<b>. Number of 1 Bits</b></item>
+        <item>9<b>. Range Sum Query - Immutable</b></item>
+        <item>10<b>. Fibonacci Number</b></item>
+        <item>11<b>. Climbing Stairs</b></item>
+        <item>12<b>. Min Cost Climbing Stairs</b></item>
+        <item>13<b>. Best Time to Buy and Sell Stock</b></item>
+        <item>14<b>. Binary Tree Inorder Traversal</b></item>
+        <item>15<b>. Invert Binary Tree</b></item>
+        <item>16<b>. Symmetric Tree</b></item>
+        <item>17<b>. Maximum Depth of Binary Tree</b></item>
+        <item>18<b>. Same Tree</b></item>
+        <item>19<b>. Path Sum</b></item>
+        <item>20<b>. Minimum Depth of Binary Tree</b></item>
+        <item>21<b>. Validate Binary Search Tree</b></item>
+        <item>22<b>. Reverse Linked List</b></item>
+        <item>23<b>. Middle of the Linked List</b></item>
+        <item>24<b>. Binary Tree Level Order Traversal</b></item>
+        <item>25<b>. Find if Path Exists in Graph</b></item>
+        <item>26<b>. Number of Islands</b></item>
+        <item>27<b>. Max Area of Island</b></item>
+        <item>28<b>. Count Sub Islands</b></item>
+        <item>29<b>. Valid Parentheses</b></item>
+        <item>30<b>. Product of Array Except Self</b></item>
+        <item>31<b>. Binary Search</b></item>
+        <item>32<b>. Minimum Add to Make Parentheses Valid</b></item>
+        <item>33<b>. Longest Palindromic Substring</b></item>
+        <item>34<b>. Two Sum II - Input Array Is Sorted</b></item>
+        <item>35<b>. Container With Most Water</b></item>
+        <item>36<b>. 3Sum</b></item>
+        <item>37<b>. Group Anagrams</b></item>
+        <item>38<b>. Kth Largest Element in an Array</b></item>
+        <item>39<b>. K Closest Points to Origin</b></item>
+        <item>40<b>. Insert Delete GetRandom O(1)</b></item>
+        <item>41<b>. First Bad Version</b></item>
+        <item>42<b>. Find Peak Element</b></item>
+        <item>43<b>. Sqrt(x)</b></item>
+        <item>44<b>. Koko Eating Bananas</b></item>
+        <item>45<b>. Subarray Sum Equals K</b></item>
+        <item>46<b>. Continuous Subarray Sum</b></item>
+        <item>47<b>. Count Number of Nice Subarrays</b></item>
+        <item>48<b>. Clone Graph</b></item>
+        <item>49<b>. Copy List with Random Pointer</b></item>
+        <item>50<b>. Is Graph Bipartite</b></item>
+        <item>51<b>. Evaluate Division</b></item>
+        <item>52<b>. Maximum Subarray</b></item>
+        <item>53<b>. Maximum Product Subarray</b></item>
+        <item>54<b>. Unique Paths</b></item>
+        <item>55<b>. Minimum Path Sum</b></item>
+        <item>56<b>. Longest Substring Without Repeating Characters</b></item>
+        <item>57<b>. Max Consecutive Ones III</b></item>
+        <item>58<b>. Maximize the Confusion of An Exam</b></item>
+        <item>59<b>. Longest Nice Subarray</b></item>
+        <item>60<b>. Random Pick with Weight</b></item>
+        <item>61<b>. Word Break</b></item>
+        <item>62<b>. House Robber</b></item>
+        <item>63<b>. Coin Change</b></item>
+        <item>64<b>. Longest Increasing Subsequence</b></item>
+        <item>65<b>. Longest Common Subsequence</b></item>
+        <item>66<b>. Lowest Common Ancestor of a Binary Search Tree</b></item>
+        <item>67<b>. Binary Tree Maximum Path Sum</b></item>
+        <item>68<b>. Best Time to Buy and Sell Stock II</b></item>
+        <item>69<b>. Jump Game</b></item>
+        <item>70<b>. Course Schedule II</b></item>
+        <item>71<b>. Path with Maximum Probability</b></item>
+        <item>72<b>. Path With Minimum Effort</b></item>
+        <item>73<b>. Merge Intervals</b></item>
+        <item>74<b>. Insert Interval</b></item>
+        <item>75<b>. Interval List Intersections</b></item>
+        <item>76<b>. LRU Cache</b></item>
+        <item>77<b>. Binary Search Tree Iterator</b></item>
+        <item>78<b>. Min Stack</b></item>
+        <item>79<b>. Implement Stack using Queues</b></item>
+        <item>80<b>. Letter Combinations of a Phone Number</b></item>
+        <item>81<b>. Combination Sum</b></item>
+        <item>82<b>. Permutations</b></item>
+        <item>83<b>. Subsets</b></item>
+        <item>84<b>. Palindrome Partitioning</b></item>
+        <item>85<b>. Implement Trie (Prefix Tree)</b></item>
+        <item>86<b>. Basic Calculator</b></item>
+        <item>87<b>. Daily Temperatures</b></item>
+        <item>88<b>. Online Stock Span</b></item>
+        <item>89<b>. Partition Equal Subset Sum</b></item>
+        <item>90<b>. Redundant Connection</b></item>
+        <item>91<b>. Find Median from Data Stream</b></item>
+        <item>92<b>. Trapping Rain Water</b></item>
+        <item>93<b>. Max Points on a Line</b></item>
+        <item>94<b>. Serialize and Deserialize Binary Tree</b></item>
+        <item>95<b>. Maximum Profit in Job Scheduling</b></item>
+        <item>96<b>. Sliding Window Maximum</b></item>
+        <item>97<b>. Edit Distance</b></item>
+        <item>98<b>. Largest Rectangle in Histogram</b></item>
+        <item>99<b>. Number of Atoms</b></item>
+        <item>100<b>. LFU Cache</b></item>
+
+    </string-array>
+</resources>
