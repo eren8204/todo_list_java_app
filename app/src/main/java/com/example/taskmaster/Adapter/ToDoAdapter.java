@@ -9,23 +9,21 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.taskmaster.AddNewTask;
 import com.example.taskmaster.MainActivity;
 import com.example.taskmaster.Model.ToDoModel;
-import com.example.taskmaster.R;
 import com.example.taskmaster.Utils.DatabaseHandler;
+import com.example.test.R;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ViewHolder> {
     private List<ToDoModel> todoList;
-    private MainActivity activity;
-    private DatabaseHandler db;
+    private final MainActivity activity;
+    private final DatabaseHandler db;
     public ToDoAdapter(DatabaseHandler db,MainActivity activity){
         this.activity=activity;
         this.db=db;

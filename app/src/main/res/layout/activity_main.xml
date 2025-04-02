@@ -11,10 +11,10 @@
         android:text="Tasks"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:layout_marginStart="@dimen/_10sdp"
-        android:layout_marginBottom="@dimen/_15sdp"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:textSize="@dimen/_20sdp"/>
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/tasksview"
@@ -30,8 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="@dimen/_22sdp"
-        android:layout_marginBottom="@dimen/_25sdp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="25dp"
         android:src="@drawable/baseline_add_24"
         tools:ignore="SpeakableTextPresentCheck" />
 

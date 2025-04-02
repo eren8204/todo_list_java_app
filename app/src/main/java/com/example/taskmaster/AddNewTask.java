@@ -1,6 +1,8 @@
 package com.example.taskmaster;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
@@ -11,6 +13,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,6 +22,7 @@ import androidx.core.content.ContextCompat;
 import com.example.taskmaster.Adapter.ToDoAdapter;
 import com.example.taskmaster.Model.ToDoModel;
 import com.example.taskmaster.Utils.DatabaseHandler;
+import com.example.test.R;
 import com.google.*;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
@@ -92,28 +96,26 @@ public class AddNewTask extends BottomSheetDialogFragment implements DialogClose
             }
         });
         final boolean finalIsUpdate = isUpdate;
-        save.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String text = newTaskText.getText().toString();
-                if(finalIsUpdate){
-                    db.updateTask(bundle.getInt("id"), text);
-                }
-                else {
-                    ToDoModel task = new ToDoModel();
-                    task.setTask(text);
-                    task.setStatus(0);
-                    db.insertTask(task);
-                }
-                DialogCloseListner listener = (DialogCloseListner) getActivity();
-                if (listener != null) {
-                    listener.handleDialogClose(getDialog());
-                }
-                dismiss();
+        save.setOnClickListener(v -> {
+            String text = newTaskText.getText().toString();
+            if(finalIsUpdate){
+                db.updateTask(bundle.getInt("id"), text);
             }
+            else {
+                ToDoModel task = new ToDoModel();
+                task.setTask(text);
+                task.setStatus(0);
+                db.insertTask(task);
+            }
+            DialogCloseListner listener = (DialogCloseListner) getActivity();
+            if (listener != null) {
+                listener.handleDialogClose(getDialog());
+            }
+            dismiss();
         });
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     @Override
     public void handleDialogClose(DialogInterface dialog) {
         taskList = db.getAllTasks();
